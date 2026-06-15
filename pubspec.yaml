@@ -1,0 +1,51 @@
+name: fit_byte
+description: "FitByte is an AI-powered diet planner app built with Flutter that helps users track calories, manage nutrition, monitor fitness goals, and maintain a healthy lifestyle through personalized diet recommendations and health analytics."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+  firebase_messaging: ^15.2.1
+  flutter_riverpod: ^2.6.1
+  google_sign_in: ^6.2.2
+  http: ^1.2.2
+  fl_chart: ^0.70.2
+  intl: ^0.19.0
+  shared_preferences: ^2.5.2
+  lottie: ^3.1.3
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  image_picker: ^1.1.2
+  percent_indicator: ^4.2.3
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.2
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon_5.png"
+  remove_alpha_ios: true
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
